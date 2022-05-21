@@ -1,4 +1,4 @@
-import If, { Else } from "../js/if";
+import If, { Else } from "../../js/if";
 
 function UsuarioInfo(props) {
     const user = props.user || {};

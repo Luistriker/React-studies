@@ -1,4 +1,4 @@
-import alunos from "../data/Alunos";
+import alunos from "../../data/Alunos";
 
 function ListaAlunos(props) {
     const list = alunos.map((aluno) => {

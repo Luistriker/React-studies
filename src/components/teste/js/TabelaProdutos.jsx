@@ -1,5 +1,5 @@
-import styles from "../../styles/TabelaProdutos.module.css";
-import product from "../data/Produto";
+import styles from "../styles/TabelaProdutos.module.css";
+import product from "../../data/Produto";
 function TabelaProdutos(props) {
     function getLine() {
         return product.map((product, i) => {

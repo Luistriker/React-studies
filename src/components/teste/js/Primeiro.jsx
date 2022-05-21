@@ -1,5 +1,3 @@
-import styles from "../../styles/Primeiro.css";
-
 export default function Primeiro(props) {
     const status = props.great >= 1 ? "Chifre grande" : "Chifre curto";
     return (

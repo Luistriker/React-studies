@@ -1,19 +1,19 @@
 /* eslint-disable import/no-anonymous-default-export */
-import styles from "../styles/App.css";
-import Primeiro from "./teste/Primeiro";
-import Fragmento from "./teste/Fragmento";
-import Aleatorio from "./teste/Aleatorio";
+import styles from "./App.css";
+import Primeiro from "./teste/js/Primeiro";
+import Fragmento from "./teste/js/Fragmento";
+import Aleatorio from "./teste/js/Aleatorio";
 import Card from "./layouts/Card";
-import Familia from "./teste/Familia";
-import FamiliaMembro from "./teste/FamiliaMembro";
-import ListaAlunos from "./teste/ListaAlunos";
-import TabelaProdutos from "./teste/TabelaProdutos";
-import ParOuImpar from "./teste/ParOuImpar";
-import UsuarioInfo from "./teste/UsuarioInfo";
-import DiretaPai from "./teste/DiretaPai";
-import IndiretaPai from "./teste/IndiretaPai";
-import Input from "./teste/Input";
-import Contador from "./contador/Contador";
+import Familia from "./teste/js/Familia";
+import FamiliaMembro from "./teste/js/FamiliaMembro";
+import ListaAlunos from "./teste/js/ListaAlunos";
+import TabelaProdutos from "./teste/js/TabelaProdutos";
+import ParOuImpar from "./teste/js/ParOuImpar";
+import UsuarioInfo from "./teste/js/UsuarioInfo";
+import DiretaPai from "./teste/js/DiretaPai";
+import IndiretaPai from "./teste/js/IndiretaPai";
+import Input from "./teste/js/Input";
+import Contador from "./contador/js/Contador";
 
 export default () => (
     <div id="app" className={styles}>
