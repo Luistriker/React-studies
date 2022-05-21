@@ -1,0 +1,12 @@
+.table {
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(131, 131, 131, 0.473);
+}
+.table .base {
+    background-color: rgb(12, 58, 145);
+    color: #ddd;
+}
+.table .cel {
+    background-color: #ddd;
+}
